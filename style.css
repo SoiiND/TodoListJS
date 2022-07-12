@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+
+body {
+    background-image: url(./fondo1.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100%;    */
+    padding: 20px;
+    min-height: 500px;
+}
+
+.tittlerojo {
+    color: #dc10ef;   
+}
+
+.completed {
+    color: rgb(253, 0, 0)
+}
+
+.fondo {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.todolist {
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+
+.bt1 {
+    background: #333333;
+    color: #000000;
+    background: #333333;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: #EFB810;
+    width: 200px;
+    height: 50px;
+}
+
+.inputForm {
+    background: #333333;
+    color: #000000;
+    background: #333333;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: #ffffffcc;
+}
+
+.add {
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #000000;
+    background: #333333;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: #EFB810;
+
+}
+
+#list {
+   font-size: 40px;
+   list-style: none;
+}
+
+.ti {
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #EFB810 0px 0px 20px, #EFB810 0px 0px 30px, #EFB810 0px 0px 40px, #EFB810 0px 0px 50px, #EFB810 0px 0px 75px;  
+
+}
+
+.adentro {
+    background: #333333;
+    color: #000000;
+    background: #333333;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: #f9e096cc;
+   
+}
+
+.afuera {
+    background: #333333;
+    color: #000000;
+    background: #333333;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: #f9e096cc;
+}
+
+.check {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+@media (max-width:1280px) {
+
+    body {
+        font-size: 10px;
+        background-size: 200%;   
+    }
+
+}
+
+
+@media (max-width:1024px) {
+
+    body {
+        font-size: 10px;
+        background-size: 200%;   
+    }
+
+}
+
+
+
+
+@media (max-width:768px) {
+
+    body {
+        font-size: 10px;
+        background-size: 200%;   
+    }
+
+}
+
+
+@media (max-width:800px)  {
+
+    body {
+        font-size: 5px;
+        background-size: 500%;
+        padding: 2px;
+    }
+
+    .inputForm {
+        font-size: 1em;
+        padding: 2px;
+    }
+
+    .todolist {
+        display: flex;
+        flex-direction: column;
+        font-size: 4em;
+        padding: 2px;
+    }
+
+    .bt1 {
+    
+        width: 120px;
+        height: 40px;
+        padding: 2px;
+        
+    }
+
+    .add {
+        font-size: 1em;
+        
+    }
+
+    .check {
+        width: 20px;
+        height: 20px;
+        
+    }
+    #list {
+        font-size: 20px;
+        list-style: none;
+        
+     }
+ 
+     .adentro {
+        
+        font-size: 20px;
+        
+    }
+
+    .afuera {
+        
+        font-size: 20px;
+        
+    }
+  
+}
+
+@media (max-width:412px)  {
+
+    body {
+        font-size: 5px;
+        background-size: 500%;
+        padding: 2px;
+    }
+
+    .inputForm {
+        font-size: 1em;
+        padding: 2px;
+    }
+
+    .todolist {
+        display: flex;
+        flex-direction: column;
+        font-size: 4em;
+        padding: 2px;
+    }
+
+    .bt1 {
+    
+        width: 120px;
+        height: 40px;
+        padding: 2px;
+        
+    }
+
+    .add {
+        font-size: 1em;
+        
+    }
+
+    .check {
+        width: 20px;
+        height: 20px;
+        
+    }
+    #list {
+        font-size: 20px;
+        list-style: none;
+        
+     }
+ 
+     .adentro {
+        
+        font-size: 20px;
+        
+    }
+
+    .afuera {
+        
+        font-size: 20px;
+        
+    }
+  
+}
+
+
+@media (max-width:280px) {
+
+    body {
+        font-size: 4px;
+        background-size: 400%;
+        padding: 1px;
+    }
+
+    .inputForm {
+        font-size: 1em;
+        padding: 2px;
+    }
+
+    .todolist {
+        display: flex;
+        flex-direction: column;
+        font-size: 4em;
+        padding: 2px;
+    }
+
+    .bt1 {
+    
+        width: 70px;
+        height: 30px;
+        padding: 2px;
+        
+    }
+
+    .add {
+        font-size: 1em;
+        
+    }
+
+    .check {
+        width: 20px;
+        height: 20px;
+        
+    }
+    #list {
+        font-size: 10px;
+        list-style: none;
+        
+     }
+ 
+     .adentro {
+        
+        font-size: 15px;
+        
+    }
+
+    .afuera {
+        
+        font-size: 15px;
+        
+    }
+  
+}

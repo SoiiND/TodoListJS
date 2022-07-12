@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>TodoList</title>
+  </head>
+
+  <body>
+    <input
+      class="bt1"
+      type="button"
+      value="Cambiar Color"
+      id="btn-color"
+      onclick="cambiarColor()"
+    />
+
+    <div class="container">
+      <script
+        src="https://kit.fontawesome.com/bb076dd4ea.js"
+        crossorigin="anonymous"
+      ></script>
+      <div class="todolist">
+        <h1 class="ti" id="titulito">Lista de tareas</h1>
+
+        <form action="" id="form">
+          <input
+            type="text"
+            name=""
+            id="inputForm"
+            class="inputForm"
+            placeholder="Agregue su tarea"
+          />
+          <button class="add" type="submit">
+            <i class="fa-solid fa-plus"></i> Agregar
+          </button>
+        </form>
+
+        <ul id="list"></ul>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
